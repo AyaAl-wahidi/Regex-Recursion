@@ -29,11 +29,11 @@ function imagesSearcher(text) {
     let matches = text.match(regExString);
 
     if (matches){
-        arr = matches;
+        arr =  matches;
     }
     return arr;
 }
-
+ 
 
 describe("Test capitalA", () => {
     test("It should return true if the input has uppercase and lowercase characters (no numbers and symbols) and it should end with capital A else return false ", () => {
